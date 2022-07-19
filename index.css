@@ -1,0 +1,157 @@
+#title {
+    color: #A7DD3C;
+    background: #FFFFFF;
+    text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+    color: #A7DD3C;
+    background: #ffffff;
+}
+
+.ol-geocoder.gcd-gl-container {
+    top: 135px!important;
+    left: .5em!important;
+    width: 2.1em!important;
+    height: 2.1em!important;
+}
+.ol-geocoder .gcd-gl-container{
+    width: 2.1em!important;
+    height: 2.1em!important;
+}
+.ol-geocoder .gcd-gl-control{
+    width: 2.1em!important;
+}
+.ol-geocoder .gcd-gl-expanded {
+    width: 15.625em!important;
+    height: 2.1875em;
+}
+.ol-touch .ol-geocoder.gcd-gl-container{
+    top: 180px!important;
+}
+.ol-geocoder .gcd-gl-btn {
+    width: 1.375em!important;
+    height: 1.375em!important;
+    top: .225em!important;
+    background-image: none!important;
+}
+
+.search-layer {
+    top: 170px;
+    left: .5em;
+  }
+  .ol-touch .search-layer {
+    top: 230px;
+  }
+
+  html, body {
+    background-color: #ffffff;
+}
+.ol-control button {
+    background-color: #f8f8f8 !important;
+    color: #1b7c19 !important;
+    border-radius: 0px !important;
+}
+.ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+    background-color: rgba(255,255,255,.4) !important;
+    padding: 3px !important;
+}
+.ol-scale-line {
+    background: none !important;
+}
+.ol-scale-line-inner {
+    border: 2px solid #f8f8f8 !important;
+    border-top: none !important;
+    background: rgba(255, 255, 255, 0.5) !important;
+    color: black !important;
+}
+
+.geolocate {
+    top: 65px;
+    left: .5em;
+}
+.ol-touch .geolocate {
+    top: 80px;
+}
+
+.tooltip {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: white;
+    padding: 4px 8px;
+    opacity: 0.7;
+    white-space: nowrap;
+  }
+  .tooltip-measure {
+    opacity: 1;
+    font-weight: bold;
+  }
+  .tooltip-static {
+    background-color: #ffcc33;
+    color: black;
+    border: 1px solid white;
+  }
+  .tooltip-measure:before,
+  .tooltip-static:before {
+    border-top: 6px solid rgba(0, 0, 0, 0.5);
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    margin-left: -7px;
+    left: 50%;
+  }
+  .tooltip-static:before {
+    border-top-color: #ffcc33;
+  }
+  .measure-control {
+    top: 100px;
+    left: .5em;
+  }
+  .ol-touch .measure-control {
+    top: 130px;
+  }
+
+  html, body, #map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+} 
+.header {
+    overflow: auto;
+
+}
+  
+  
+  .header a.logo {
+    float: left;
+    padding: 5px;
+    position:relative;
+  }
+  .header a.logo1 {
+      float: right;
+      padding:5px;
+      position: fixed;
+  }
+  
+  
+  
+  
+  .header-right {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: left;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: right;
+    }
+  }
+  

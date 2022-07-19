@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/horsey.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/ol3-search-layer.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <link href="index.css" rel="stylesheet">
+
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+
+
+        <title>NUHM</title>
+    </head>
+    <body>
+                                        <!-- Navigation -->
+                                        <div id="header" class="container-fluid"  style="background-color: green;">
+                                            <div class="header">
+                                            <a class="logo"><img  src="resources/Images/logo.PNG" width="60px" height="60px" style="position:relative;"></a>
+                                            <div id="header-right" class="header-right">
+                                            <a href="#"><img  src="resources/Images/nhm.PNG" width="49px" height="49px" ></a>
+                                            <a href="#"><img  src="resources/Images/nuhm.png" width="49px" height="49px"></a>
+                                            </div>
+                                              <h3 style="font-family: Cambria;color: whitesmoke;">National Health Mission Tamil Nadu<br><p style="font-size: medium;font-family:Cambria;font-style: italic;">Department of Health & Family Welfare Govt. of Tamil Nadu, India</p></h3>
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                       
+                           
+                          <div class="container-fluid" style="width: 100%">
+                            <div class="row">
+                               <div class="col-lg-12 text-center">
+                                <div id ="title"><marquee behavior="scroll" direction="left"><h4><b>Urban Primary Health Centers,Tamil Nadu</b></h4>
+                                </marquee></div>
+                              </div>
+                            </div> 
+                          </div> 
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="http://cdn.polyfill.io/v2/polyfill.min.js?features=Element.prototype.classList,URL"></script>
+        <script src="resources/horsey.min.js"></script>
+        <script src="resources/ol3-search-layer.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/Municipalities_1.js"></script><script src="layers/Zones_2.js"></script><script src="layers/UPHC_3.js"></script><script src="layers/UCHC_4.js"></script><script src="layers/EOC_5.js"></script><script src="layers/Dispensary_6.js"></script><script src="layers/TN_District_7.js"></script>
+        <script src="styles/Municipalities_1_style.js"></script><script src="styles/Zones_2_style.js"></script><script src="styles/UPHC_3_style.js"></script><script src="styles/UCHC_4_style.js"></script><script src="styles/EOC_5_style.js"></script><script src="styles/Dispensary_6_style.js"></script><script src="styles/TN_District_7_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
